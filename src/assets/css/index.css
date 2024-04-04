@@ -1,0 +1,87 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-white {
+    color: white;
+}
+
+.line {
+    margin: 15px !important;
+    width: 90% !important;
+}
+/*.text-box {
+    padding: 15px !important;*/
+/*text-align: center!important;*/
+/*transition: background 0.4s ease 0s;
+    cursor: pointer;
+}
+
+    .text-box:hover {
+        background-color: #13B0FF !important;
+    }*/
+.hidden {
+    display: none;
+}
+
+.text-boxs {
+    padding: 15px !important;
+    /*text-align: center!important;*/
+    transition: background 0.4s ease 0s;
+    cursor: pointer;
+}
+
+    .text-boxs:hover {
+        background-color: #13B0FF !important;
+    }
+
+.img-hover {
+}
+
+    .img-hover .text-para-show {
+        position: absolute;
+        bottom: 0;
+        width: 400px;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+
+    .img-hover:hover.text-para-show {
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+.portfolio-description {
+    left: 0;
+    margin: -61px 0px 3px -51px !important;
+    padding: 81px !important;
+    opacity: 0;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 48%;
+    transform: translate3d(0,-38%,0);
+    transition: all 250ms ease-in-out 0s;
+    visibility: hidden;
+    width: 70%;
+    z-index: 3;
+}
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 1200px !important;
+        /* height: 1000px; */
+        /* max-height: 1185px; */
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 5.65rem auto!important;
+    }
+}
