@@ -1,4 +1,6 @@
-﻿@charset "UTF-8";
+﻿
+
+@charset "UTF-8";
 
 /*  Mixins */
 
@@ -10,8 +12,6 @@
    Google Fonts
 -----------------------------------------------------------------*/
 
-@import "https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800";
-@charset "UTF-8"
 
 html {
     overflow-x: hidden
@@ -8286,8 +8286,6 @@ h6.font-parisienne {
 .p-30 {
     padding: 30px !important
 }
-
-
 
 .parentfont{
     font-family:Oswald!important;

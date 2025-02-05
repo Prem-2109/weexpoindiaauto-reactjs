@@ -1,5 +1,14 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./fonts/MyCustomFont.woff2') format('woff2'),
+        url('./fonts/MyCustomFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -12,6 +21,7 @@ body {
     margin: 15px !important;
     width: 90% !important;
 }
+
 /*.text-box {
     padding: 15px !important;*/
 /*text-align: center!important;*/
@@ -28,31 +38,31 @@ body {
 
 .text-boxs {
     padding: 15px !important;
-    /*text-align: center!important;*/
     transition: background 0.4s ease 0s;
     cursor: pointer;
 }
 
-    .text-boxs:hover {
-        background-color: #13B0FF !important;
-    }
-
-.img-hover {
+.text-boxs:hover {
+    background-color: #13B0FF !important;
+    color: white !important;
+    height: 33.60vh;
 }
 
-    .img-hover .text-para-show {
-        position: absolute;
-        bottom: 0;
-        width: 400px;
-        background-color: #fff;
-        padding: 20px;
-    }
 
 
-    .img-hover:hover.text-para-show {
-        visibility: visible;
-        opacity: 1;
-    }
+.img-hover .text-para-show {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.img-hover:hover.text-para-show {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 .portfolio-description {
@@ -64,7 +74,7 @@ body {
     right: 5px;
     text-align: center;
     top: 48%;
-    transform: translate3d(0,-38%,0);
+    transform: translate3d(0, -38%, 0);
     transition: all 250ms ease-in-out 0s;
     visibility: hidden;
     width: 70%;
@@ -72,7 +82,9 @@ body {
 }
 
 @media (min-width: 992px) {
-    .modal-lg, .modal-xl {
+
+    .modal-lg,
+    .modal-xl {
         max-width: 1200px !important;
         /* height: 1000px; */
         /* max-height: 1185px; */
@@ -82,6 +94,6 @@ body {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 500px;
-        margin: 5.65rem auto!important;
+        margin: 5.65rem auto !important;
     }
 }

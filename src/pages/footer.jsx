@@ -27,8 +27,6 @@ const footer = () => {
                                 <p className="text-left" style={{color:"black"}}>
                                     Make most of 2021 by showcasing & exhibiting your latest mobility at WEEXPOAUTOSHOW  where the most iconic brands exhibit their innovations, products, and ideas.
                                 </p>
-                                <br />
-                                
                             </a>
                         </div>
                     </div>
@@ -42,7 +40,6 @@ const footer = () => {
                                     Witness the country’s major auto show where latest new vehicles, burgeoning technological trends such as super cars,
                                     electric vehicles across 4 days of the auto show.
                                 </p>
-                               
                             </a>
                         </div>
                     </div>
@@ -55,8 +52,6 @@ const footer = () => {
                                 <p className="text-left" style={{color:"#000"}}>
                                     Get an exclusive access to the Press & Media dugout that provide a great coverage of the Auto Show across all corners of the exhibit arena.
                                 </p>
-                                <br />
-                                
                             </a>
                         </div>
                     </div>
@@ -70,7 +65,6 @@ const footer = () => {
                                     We are always open to talk! Feel free to contact us for any information related to the Auto show,
                                     Media Access, Collaborations, Sponsorships, Partnerships and more.
                                 </p>
-                                
                             </a>
                         </div>
                     </div>
