@@ -6,7 +6,6 @@ import './assets/css/index.css';
 import './assets/css/weexpoindiaauto.css';
 import Header from './pages/header';
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Header/>
